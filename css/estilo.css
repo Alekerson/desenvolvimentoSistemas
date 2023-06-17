@@ -9,7 +9,7 @@ section{width: 400px;}
 .bloco1 p{color: blueviolet;}/*FORMATANDO TODAS AS TAGS P DENTRO DA CLASSE BLOCO1*/
 
 .bloco1 > p{ text-decoration: line-through; text-align: end;}/*ESSE SELETOR > IRÁ SELECIONAR FILHAS DIRETAS DA TAG MÃE*/
-.bloco1{border: 2px solid red;}
+.bloco1{border: 10px solid red; margin: 50px 100px; box-sizing: border-box; padding-top: 10px; padding-bottom: 50px;}/*Quando colocamos dois valores no margin o primeiro valor irá afetar top  bottom o segundo irá afetar left e right*/
 
 /*FORMATANDO BLOCO 2*/
-.bloco2{border: 2px solid green;}
+.bloco2{border: 2px solid green; margin-left: 100px; padding: 40px; box-sizing: border-box;}/*bix-sizing: border-box irá alterar o compartamento html. De forma que quando aplicado cordr e padding, a estrutura não irá expandir mas, ficará com o mesmo tamanho, só que recalculado*/
