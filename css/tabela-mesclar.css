@@ -1,0 +1,10 @@
+body{font-family: Verdana;}
+h1{text-align: center;}
+hr{border: 2px solid green;}
+/*Formatação 1*/
+table, tr, th, td{border: 2px solid black; border-collapse: collapse; padding: 10px;}
+/*border-collapse: collapse; fundi todas as linhas da tabela e fica igual o excel*/
+
+table{margin: 10px auto; width: 50%; border-collapse:collapse;}/*Estamos centralizando a tabela ultilizando margin auto para as laterais*/
+
+tbody > tr:nth-child(2){background-color: chartreuse;}

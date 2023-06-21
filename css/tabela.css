@@ -1,0 +1,18 @@
+body{font-family: Verdana;}
+h1{text-align: center;}
+hr{border: 2px solid green;}
+/*Formatação 1*/
+/*table, tr, th, td{border: 2px solid black; border-collapse: collapse; padding: 10px;}*/
+/*border-collapse: collapse; fundi todas as linhas da tabela e fica igual o excel*/
+
+table{margin: 10px auto; width: 50%; border-collapse:collapse;}/*Estamos centralizando a tabela ultilizando margin auto para as laterais*/
+
+/*Formatação 2*/
+/* th, td{border-bottom: 1px solid gray; padding: 10px; text-align: center;} */
+
+/* Formatação 3 */
+th{background-color: dodgerblue; color: white;}
+th, td{padding: 10px; text-align: center;}
+tbody > tr:nth-child(1){background-color:  cyan;}/*nth-child() irá formatar um filho específico que será informado nos parentesis, por exemplo se quisermos formatar o 2° filho, colocamos nth-child(2), e assim por diante.... obs2: se usar nth-child(even) formatará todos os filhos que são pares e o 'odd' é quando queremos formatar os filhos impares*/
+
+tbody > tr:hover{text-decoration: underline; cursor: pointer;}
