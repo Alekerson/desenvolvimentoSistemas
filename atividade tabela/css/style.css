@@ -1,0 +1,12 @@
+body{font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
+table, th, td, tr{ border: 2px solid gray; border-collapse: collapse; padding: 10px;}
+
+h1{text-align: center;}
+
+thead > tr{background-color: green;}
+
+tbody > tr:nth-child(1), tbody > tr:nth-child(3), tbody > tr:nth-child(7), tbody > tr:nth-child(9){background-color: olive;}
+
+tbody > tr:nth-child(5){background-color:chartreuse;}
+
+table{margin: 10px auto;}
