@@ -1,0 +1,19 @@
+body{font-family: Verdana;}
+h1{text-align: center;}
+
+/* FORMULÁRIO */
+form{width: 80%;
+     border: 1px solid black; 
+     padding: 10px; 
+     margin: 0 auto;
+      border-radius: 20px;}
+
+input{width: 100%; 
+    padding: 10px; 
+    margin: 5px 0; 
+    box-sizing: border-box;/*só é nescessário quando exitir padding e border para ajustar a dimensão dele*/
+    border-radius: 10px; /*Para arrendondar os cantos*/
+    outline: none;/*para tirar a borda padrão do navegador*/
+    border: 1px solid gray;}
+
+input:focus{box-shadow: 0px 0px 10px blueviolet;}/*para adicionar uma sombra fora da borda*/

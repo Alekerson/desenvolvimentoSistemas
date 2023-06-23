@@ -5,8 +5,8 @@ h1{text-align: center;}
 
 thead > tr{background-color: green;}
 
-tbody > tr:nth-child(1), tbody > tr:nth-child(3), tbody > tr:nth-child(7), tbody > tr:nth-child(9){background-color: olive;}
+tbody > tr:nth-child(odd){background-color: olive;}
 
 tbody > tr:nth-child(5){background-color:chartreuse;}
 
-table{margin: 10px auto;}
+table{margin: auto;}
