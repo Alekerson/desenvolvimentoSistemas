@@ -14,13 +14,58 @@
     <form action="#" method="get">
         <fieldset>
             <legend>Cadastro</legend>
-        <label for="nome"> Seu nome:<!--for é para fazer conexão com o input, sempre colocar a mesma coisa do id e name-->
-            <input type="text" name="nome" id="nome"><br><!-- name e id é a mesma coisa, só que dependendo da linguangem ela puxa ou pelo id ou pelo name, sempre coolocar a mesma coisa no id e no name como se fosse uma variavel-->
+            <label for="nome"> Seu nome:  </label><!--for é para fazer conexão com o input, sempre colocar a mesma coisa do id e name-->
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome completo" maxlength="10"><br><!-- name e id é a mesma coisa, só que dependendo da linguangem ela puxa ou pelo id ou pelo name, sempre coolocar a mesma coisa no id e no name como se fosse uma variavel-->
 
-            <label for="senha"> Sua senha: 
-                <input type="password" name="senha" id="senha">
-            </label>
-        </label>
+            <label for="senha"> Sua senha:  </label>
+            <input type="password" name="senha" id="senha" disabled>
+           
+            <label for="rock">Qual seu estilo musical? </label> <br>
+            <input type="checkbox" name="musica" id="rock" value="rock">
+            <label for="rock">rock</label> 
+            <br>
+            <input type="checkbox" name="musica" id="reggae" value="reggae">
+            <label for="Reggae">Reggae</label>
+            <br>
+            <input type="checkbox" name="musica" id="forro" value="forro">
+            <label for="forro">Forró</label>
+
+            <br>
+
+            <label for="">Como está o seu dia?</label>
+            <br>
+            <input type="radio" name="dia" id="otimo" value="otimo">
+            <label for="otimo">Ótimo</label>
+            <br>
+            <input type="radio" name="dia" id="bom" value="bom">
+            <label for="bom"> Bom</label>
+            <br>
+            <input type="radio" name="dia" id="ruim">
+            <label for="ruim">ruim</label>
+            <br>
+
+            <label for="estado">Escolha seu estado</label> <br>
+            <select name="estado" id="estado">
+                <option value="">Escolha um estado...</option>
+                <option value="MA">Maranhão</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select>
+            <br>
+
+            <label for="mensagem">Deixe uma mensagem:</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <br>
+
+            <label for="arquivo">Envie um arquivo</label>
+            <input type="file" name="arquivo" id="arquivo" accept="image/*">
+            <br>
+
+            <section class="bnt">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                <button type=""> Botão</button>
+            </section>
     </fieldset><!--Configurção de campo-->
     </form>
 </body>

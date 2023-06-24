@@ -8,12 +8,18 @@ form{width: 80%;
      margin: 0 auto;
       border-radius: 20px;}
 
-input{width: 100%; 
+input, select, textarea{width: 100%; 
     padding: 10px; 
     margin: 5px 0; 
     box-sizing: border-box;/*só é nescessário quando exitir padding e border para ajustar a dimensão dele*/
     border-radius: 10px; /*Para arrendondar os cantos*/
     outline: none;/*para tirar a borda padrão do navegador*/
     border: 1px solid gray;}
+input[type=checkbox], input[type=radio]{width: 5%;}
 
-input:focus{box-shadow: 0px 0px 10px blueviolet;}/*para adicionar uma sombra fora da borda*/
+input[type=text]:focus, input[type=password]:focus{box-shadow: 0px 0px 10px blueviolet;}/*para adicionar uma sombra fora da borda obs: para chamar um atributo é só abrir [] e colocar o atributo dentro*/
+
+textarea{
+    height: 150px;
+    resize: none; /*pra não deixar o usuário redimensionar a caixa de mensagem*/
+}
